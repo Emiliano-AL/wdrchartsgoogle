@@ -28,9 +28,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/webdatarocks/webdatarocks.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/webdatarocks/webdatarocks.toolbar.min.js",
+              "node_modules/webdatarocks/webdatarocks.googlecharts.js",
+              "node_modules/webdatarocks/webdatarocks.js"
+            ]
           },
           "configurations": {
             "production": {
